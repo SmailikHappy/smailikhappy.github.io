@@ -12,7 +12,6 @@ Game has a team of slender-man's and innocents.\
 Slender man's goal is to kill everyone.\
 Innocent's goal is to collect 8 papers on the map, evading looking on the slender-man.
 
-
 ## Gameplay
 
 Slender man places 9 papers around the map.\
@@ -20,13 +19,9 @@ When all papers have been hidden, the actual game starts.\
 Innocents can collect the paper just right-clicking it.\
 Slender-man by default is invisible. To show itself a player should press <kbd>Shift</kbd> button. If the innocent's view captured the slender-man, the innocent takes damage.
 
-
 ## Download
 
-[Google Drive link](https://drive.google.com/file/d/1KQkQF_MdKhL0p5gT29NSc_rnloqAtx2P/view?usp=sharing) if you want to try it out.\
-Or direct [download link](../../post_data/slender_man/SlenderMan-MCPlugin.zip "Download").\
-Or direct <a href="../../post_data/slender_man/SlenderMan-MCPlugin.zip" download>download link 2</a>
-
+You can [download](../../post_data/slender_man/SlenderMan-MCPlugin.zip "Download"). the plugin if you want to try it out.
 
 ## Usage
 
