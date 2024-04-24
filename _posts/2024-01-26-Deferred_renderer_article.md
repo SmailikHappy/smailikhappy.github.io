@@ -19,7 +19,7 @@ When selecting the project, I carefully analyzed the overall difficulty in achie
 ### Geometry pass
 In the geometry pass, we render the world geometry into multiple render targets. This results in having several images with all the information for later usage. Essentially, every pixel stores the information it requires. This pass enables us to overwrite all the initial values at the beginning of the frame, saving time from all wasteful light calculations.
 The result should I end up looks like this:
-[img](img source)
+[img]
 (I store roughness, metallic, normal and diffuse values)
 The rendered information is stored in so called “Geometry Buffers” (later GBuffers). All pixel data is passed to GPU memory as full-screen textures, where every pixel knows its corresponding values. 
  
