@@ -1,5 +1,6 @@
 ---
 title: "Deferred renderer with PBR on PS5"
+categories: [Personal project]
 ---
 
 This is a self-study project that implements deferred lighting to illuminate the scene, with support for physically based rendering (PBR). The renderer is written in C++ for the PS5 using the low-level *Prospero* API.

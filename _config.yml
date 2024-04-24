@@ -16,10 +16,10 @@ timezone:
 
 title: Daniel Smulko # the main title
 
-tagline: Personal portfolio website # it will display as the sub-title
+tagline: Personal website # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Daniel Smulko's portfolio website using Chirpy theme and GitHub Pages for hosting
+  Personla Daniel Smulko's website
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.

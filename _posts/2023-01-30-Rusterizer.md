@@ -1,5 +1,6 @@
 ---
 title: "Rusterizer masterclasses"
+categories: [Personal project]
 ---
 
 I was participating in rust rasterizer masterclasses hosted in my university.\

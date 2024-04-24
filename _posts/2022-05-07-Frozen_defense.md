@@ -1,5 +1,9 @@
 ---
 title: "University intake project - Frozen Defense"
+categories: [Personal project]
+image:
+  path: post_data/frozen_defense/1.png
+  alt: Image from the application.
 ---
 
 I developed a tower defense game with a winter theme entirely in C++, utilizing a template provided by [3Dgep.com](https://www.3dgep.com/cpp-fast-track-2-template/).
