@@ -3,31 +3,19 @@ layout: default
 # Index page
 ---
 
-<br>
-
-<img src = "post_data/home/me.png" style = "width: 40%;" alt = "It is a photo of me">
-<br>
-<br>
-
-Hey, I am Daniel! Welcome to my website!
-
-Currently, I am studying game programming at <a href = https://www.buas.nl>Breda University of Applied Sciences</a>. On the program I am focusing on engine development and graphics programming. <br>
-I consider myself a very curious individual, always eager to delve deep into research to find answers.
-
-Hang around the we
-
-// Put some GIF ili rolik, 4toto будет показывать (то, что я могу показать) -> тени, 
-// отдельно от себя от about me
-
-// Добавить гифки + результат по проектам
-// Backyard Chicken -> показать трейлер, с верху небольшой дескрипшн
-// Добавить личный контрибьюшн и инфу то что я там сделал
-// разделить артиклы и проекты и сделать их по разному в категориях
-// Резюме / CV добавить -> показывать на сайте но и добавить опцию скачать
+<div class="row">
+    <div class="col-md">
+        <h1>Who am I?</h1>
+        <img src = "post_data/home/me.png" alt = "It is a photo of me" class="img-fluid float-md-end me-md-3 mb-3" style = " width:40%; border-radius: .625rem;">
+        <p>Hey, I am Daniel! Welcome to my website!</p>
+        <p>Currently, I am studying game programming at <a href = https://www.buas.nl>Breda University of Applied Sciences</a>. On the program I am focusing on engine development and graphics programming. </p>
+        <p>I consider myself a very curious individual, always eager to delve deep into research to find answers.</p>
+    </div>
+</div>
+<!-- Welcome text and image -->
 
 
-<br>
-Here you can find some of the projects I am proud of:
+<h3>There are some of the articles / projects I advice to look into:</h3>
 
 {% include lang.html %}
 
@@ -39,3 +27,14 @@ Here you can find some of the projects I am proud of:
   {% endfor %}
 </div>
 <!-- #post-list -->
+
+Hang around the we
+
+// Put some GIF ili rolik, 4toto будет показывать (то, что я могу показать) -> тени, 
+// отдельно от себя от about me
+
+// Добавить гифки + результат по проектам
+// Backyard Chicken -> показать трейлер, с верху небольшой дескрипшн
+// Добавить личный контрибьюшн и инфу то что я там сделал
+// разделить артиклы и проекты и сделать их по разному в категориях
+// Резюме / CV добавить -> показывать на сайте но и добавить опцию скачать
