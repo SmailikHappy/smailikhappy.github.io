@@ -1,6 +1,7 @@
 ---
-title: "Rusterizer masterclasses"
-categories: [Personal project]
+title: "Rusterizer"
+categories: [Personal projects]
+pin: true
 ---
 
 I was participating in rust rasterizer masterclasses hosted in my university.\

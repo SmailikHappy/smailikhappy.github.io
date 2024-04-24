@@ -1,6 +1,6 @@
 ---
 title: "Backyard chickens"
-categories: [Group project]
+categories: [Group projects]
 ---
 
 A group project involving 14 team members completed at university as part of a course assignment.\

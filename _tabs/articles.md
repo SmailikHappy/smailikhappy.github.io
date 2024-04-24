@@ -1,14 +1,18 @@
 ---
-title: "Projects"
+title: "Articles"
 layout: default
 icon: fas fa-stream
-order: 1
+order: 3
 ---
+
+<h3>So far there are only few articles available</h3>
 
 {% include lang.html %}
 
-{% assign pinned = site.posts | where: 'pin', 'true' %}
-{% assign default = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
+{% assign all_posts = site.posts | where: 'categories', 'Articles' %}
+
+{% assign pinned = all_posts | where: 'pin', 'true' %}
+{% assign default = all_posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
 
 {% assign posts = pinned | concat: default %}
 

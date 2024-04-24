@@ -1,6 +1,6 @@
 ---
 title: "Slender man Minecraft plugin"
-categories: [Personal project]
+categories: [Personal projects]
 ---
 
 

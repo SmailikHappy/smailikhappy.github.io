@@ -1,6 +1,7 @@
 ---
-title: "Categories"
+title: "Post categories"
 layout: categories
 icon: fas fa-warning
-order: 2
+order: 3
+active: false
 ---

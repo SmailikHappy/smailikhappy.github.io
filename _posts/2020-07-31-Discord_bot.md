@@ -1,6 +1,6 @@
 ---
 title: "Discord bot to play Spy"
-categories: [Personal project]
+categories: [Personal projects]
 ---
 
 A discord bot that I used to play **Spy** with friends online

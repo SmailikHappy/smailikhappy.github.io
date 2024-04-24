@@ -1,6 +1,6 @@
 ---
 title: "University intake project - Frozen Defense"
-categories: [Personal project]
+categories: [Personal projects]
 image:
   path: post_data/frozen_defense/1.png
   alt: Image from the application.
