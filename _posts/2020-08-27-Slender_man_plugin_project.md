@@ -3,7 +3,7 @@ title: "Slender man Minecraft plugin"
 categories: [Personal projects]
 ---
 
-## Project information
+## General information
 
 This plugin allows you to play as Slenderman against your friends in Minecraft.
 
