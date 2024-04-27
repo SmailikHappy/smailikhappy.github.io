@@ -19,7 +19,7 @@ When selecting the project, I carefully analyzed the overall difficulty in achie
 ### Geometry pass
 In the geometry pass, we render world geometry into multiple render targets. This results in having several images with all the information for later usage. Essentially, every pixel stores the information it requires. This pass enables us to overwrite all the initial values at the beginning of the frame, saving time from all wasteful light calculations.
 
-![Render targets with necessary information](/post_data/deferred_renderer/Picture1.jpg)
+![Render targets with necessary information](assets/post_data/deferred_renderer/Picture1.jpg)
 *As a result, I store roughness, metallic, normal and diffuse data per pixel*
 
 The rendered information is stored in so called **Geometry Buffers** *(later GBuffers)*. All pixel data is passed to GPU memory as full-screen textures, where every pixel knows its corresponding values. 
@@ -31,7 +31,7 @@ This approach ensures that we have all the essential information required to cal
 
 When I was working on my first renderer, I could not exceed the limit of 10 lights, regardless of their sizes. This was because every light operation impacted every pixel on the screen. However, this case prevents numerous wasteful calculations.
 
-![Accumulation buffer after lighting pass](/post_data/deferred_renderer/Picture2.png)
+![Accumulation buffer after lighting pass](assets/post_data/deferred_renderer/Picture2.png)
 *For now, that is how the light accumulation buffer will look like*
 
 ### Direct light pass (personal addition)
@@ -39,19 +39,19 @@ In virtual worlds, we encounter various types of light, with point and direct li
 
 In this scenario, there is no need for optimization, so we straightforwardly traverse every pixel and assess the resulting color.
 
-![Updated accumulation buffer with direct light source information](/post_data/deferred_renderer/Picture3.png)
+![Updated accumulation buffer with direct light source information](assets/post_data/deferred_renderer/Picture3.png)
 *After filling the scene with one direct light, that what we will see*
 
 ### Transparency pass (personal addition)
 By default, transparency is not handled in this pipeline (later will be discussed why). The way I implemented is pretty simple – I project model onto the screen and multiply the opacity coefficient with a base color texture. Nothing else.
    
-![Updated accumulation buffer with transparent objects in the scene](/post_data/deferred_renderer/Picture4.png)
+![Updated accumulation buffer with transparent objects in the scene](assets/post_data/deferred_renderer/Picture4.png)
 *Temporal outcome with some transparent objects drawn*
 
 ### Final pass
 In this stage, we might perform some post-process (but I do not), then finally render the image on the screen. Typically, we just extract the pixel data from Light accumulation buffer and display it on the screen.
 
-![Final outcome](/post_data/deferred_renderer/Picture5.png)
+![Final outcome](assets/post_data/deferred_renderer/Picture5.png)
 *I added an ambient light to the final outcome*
 
 ## Weighing 
@@ -72,5 +72,5 @@ I am very pleased with the work I have accomplished. Moreover, the fact - that I
 
 Thanks for reading this. GG
 
-![BUas logo](/post_data/deferred_renderer/buas-logo.png)
+![BUas logo](assets/post_data/deferred_renderer/buas-logo.png)
 *This project was part of university course*

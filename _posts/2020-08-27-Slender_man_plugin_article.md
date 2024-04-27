@@ -23,7 +23,7 @@ This plugin allows you to play as Slenderman against your friends in Minecraft.
 
 ## Download
 
-[Download](../../post_data/slender_man/SlenderMan-MCPlugin.zip "Download") the plugin to try it out.
+[Download](assets/post_data/slender_man/SlenderMan-MCPlugin.zip "Download") the plugin to try it out.
 
 ## Usage
 

@@ -2,7 +2,7 @@
 title: "University intake project - Frozen Defense"
 categories: [Personal projects]
 image:
-  path: post_data/frozen_defense/1.png
+  path: assets/post_data/frozen_defense/1.png
   alt: Image from the application.
 ---
 
