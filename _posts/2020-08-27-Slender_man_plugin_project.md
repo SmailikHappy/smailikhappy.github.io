@@ -14,13 +14,13 @@ If you're interested in playing the game or learning more about it, you can chec
 
 ## Some gameplay GIFs
 
-![Slenderman places notes](/assets/post_data/slender_man/place%20notes%20gif.gif#place_notes)
+![Slenderman places notes](/assets/post_data/slender_man/place%20notes%20gif.gif)
 *Slenderman hides some notes around the map*
 <br>
 
-![Slenderman attacks](/assets/post_data/slender_man/damaging.gif#damage)
+![Slenderman attacks](/assets/post_data/slender_man/damaging.gif)
 *Slenderman reveals itself and damages players in this way*
 <br>
 
-![Innocent picks up the note](/assets/post_data/slender_man/taking%20note.gif#take_note)
+![Innocent picks up the note](/assets/post_data/slender_man/taking%20note.gif)
 *Innocent player finds a note*
