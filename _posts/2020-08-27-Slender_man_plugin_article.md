@@ -37,7 +37,7 @@ This plugin allows you to play as Slenderman against your friends in Minecraft.
 
 <!-- It is a download link, so it must have a correct path to the file according to the link in the browser. -->
 [Download](../../assets/post_data/slender_man/SlenderMan-MCPlugin.zip "Download") the plugin to try it out.
-> As this plugin is too old and no longer supported, it cannot be launched on modern server cores. So you will find `spigot-1.16.2.jar`{: .filepath} server-file that runs it (though with some warnings).
+> As this plugin is too old and no longer supported, this plugin generates numerous errors on modern server cores. So you will find `spigot-1.16.2.jar`{: .filepath} server-file to run it (though with some warnings).
 {: .prompt-warning}
 
 ## Usage
@@ -50,6 +50,9 @@ This plugin allows you to play as Slenderman against your friends in Minecraft.
 3. Launch the server and use the commands below
 
 ### Commands
+
+> Commnads cannot be issued from a server console, only client (player on the server) can execute them.
+{: .prompt-warning}
 
 - `/innocentadd <nickname>` - gives a player an innocent role
 - `/slenderadd <nickname>` - gives a player a slender-man role

@@ -1,6 +1,9 @@
 ---
 title: "Slender man Minecraft plugin"
 categories: [Personal projects]
+image:
+  path: assets/post_data/slender_man/slenderman plugin logo.png
+  alt: "NO NO NO NO NO NO NO NO NO"
 ---
 
 ## General information
