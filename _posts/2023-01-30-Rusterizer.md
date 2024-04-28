@@ -2,12 +2,26 @@
 title: "Rusterizer"
 categories: [Personal projects]
 pin: true
+image:
+  path: assets/post_data/rusterizer/rusterizer.png
+  alt: Image of crab doing dispersion of light
 ---
 
 ## General information
 
-I was participating in rust rasterizer masterclasses hosted in my university.\
-You can see the final codebase via this link to the [GitHub](https://github.com/SmailikHappy/rusterizer) repository.
+I was participating in rust rasterizer masterclasses hosted in [my university](https://www.buas.nl/).
 
-The masterclasses primarily focused on teaching students the programming language Rust, as well as the mathematics and algorithms involved in rendering pipelines. While I did gain some experience with the new syntax, there is still much more to learn.\
-It's important to note that this project was undertaken during my early stages as a programmer, and my main objective was to learn new concepts rather than produce polished code. As a result, the quality of the code may be lacking.
+The masterclasses primarily focused on teaching students the programming language Rust, as well as the mathematics and algorithms involved in rendering pipelines. While I did gain some experience with the new syntax, there is still much more to learn.
+
+## Features of final project
+- Loading a .gltf model
+- Applying .jpg texture onto the loaded model
+- Triangle rasterization using Bresenham's algorithm
+- Free camera movement (<kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> and mouse)
+
+> More information on the [GitHub](https://github.com/SmailikHappy/rusterizer).
+{: .prompt-tip}
+
+## Important note
+
+This project was undertaken during my early stages as a programmer, and my main objective was to learn new concepts rather than produce polished code. As a result, **<u>the quality of the code is lacking.</u>**
