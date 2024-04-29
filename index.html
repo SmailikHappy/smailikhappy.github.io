@@ -3,6 +3,11 @@ layout: default
 # Index page
 ---
 
+<!-- Renaming the title of page to my name, as it should be originally -->
+<script>
+    document.getElementById("topbar-title").innerHTML = "Daniel Smulko";
+</script>
+
 <div class="row">
     <div class="col-md">
         <h1>Who am I?</h1>
@@ -22,9 +27,9 @@ layout: default
 {% assign pinned = site.posts | where: 'pin', 'true' %}
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
-  {% for post in pinned %}
-    {% include post-card.html %}
-  {% endfor %}
+    {% for post in pinned %}
+        {% include post-card.html %}
+    {% endfor %}
 </div>
 <!-- #post-list -->
 
