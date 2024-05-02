@@ -1,6 +1,8 @@
 ---
 title: "Backyard chickens"
 categories: [Group projects]
+image:
+  path: assets/post_data/backyard_chickens/logo.png
 ---
 
 ## General information
@@ -8,7 +10,8 @@ categories: [Group projects]
 This is a group project completed at university as part of a course assignment. The team consisted of 14 developers.\
 The game is a remake of [Rampart](https://en.wikipedia.org/wiki/Rampart_(video_game)) from 1990, featuring a chicken-themed style. It was developed using Unreal Engine.
 
-The game can be found on [itch.io](https://smooth-dedede.itch.io/backyardchickens)
+> The game can be found on [itch.io](https://smooth-dedede.itch.io/backyardchickens)
+{: .prompt-tip}
 
 ## Personal contribution
 
