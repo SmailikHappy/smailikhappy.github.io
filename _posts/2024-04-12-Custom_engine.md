@@ -1,13 +1,18 @@
 ---
-title: "Custom cross-platform engine"
+title: "Custom cross-platform game engine"
 categories: [Group projects]
 ---
 
 ## General information
 
-This is a group project completed at university as part of a course assignment. The team consisted of 6 programmers. The goal was to develop a cross-platform game engine for PC and PS5 that is suitable to create first person shooters.
+This is a group project completed at [Breda University](https://www.buas.nl/) as part of a course assignment. The goal was to **develop a cross-platform game engine for PC and PS5** suitable for shooters in teams of programmers, my team had 6 programmers overall.
 
-During the project, I deepened my knowledge in graphics and blender scripting, learned CI/CD pipeline and applied it in team work. It is worth to mention, I got some crucial lessons on why do we need peer code checks, team code style agreement and automize the process of code merging.
+During the project, I deepened my knowledge in graphics and blender scripting, learned CI/CD pipeline and applied it in team work.
+
+It is worth to mention, I got some crucial lessons on why do we need peer code reviews, code style agreement and automatic codebase merge workflow.
+
+> The project's codebase cannot be shared due to protection of NDA rules!
+{: .prompt-warning}
 
 ## Final demo gameplay result
 
