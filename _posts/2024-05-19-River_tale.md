@@ -20,9 +20,9 @@ The idea of the game is unusual. We are using our universities XR stage as a gam
 You are a pirate team that escapes hell. Some creatures are your way breaking your ship, so you need to shoot them and repair your cannons if they got harmed.
 
 *There is a small trailer created by designers before launch of production phase.*
-<video class="w-100" controls>
+<!-- <video class="w-100" controls>
   <source src="/assets/post_data/river_tale/trailer.mp4" type="video/mp4">
-</video>
+</video> -->
 
 ## Personal contribution
 
