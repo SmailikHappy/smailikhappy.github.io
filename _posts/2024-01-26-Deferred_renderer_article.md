@@ -1,6 +1,9 @@
 ---
 title: "Deferred renderer with PBR on PS5"
 categories: [Articles]
+image:
+  path: assets/post_data/deferred_renderer/deferred.png
+  alt: 3 thousand lights illuminating the scene
 ---
 
 
