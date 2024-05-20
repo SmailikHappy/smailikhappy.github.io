@@ -1,9 +1,6 @@
 ---
 title: "River tale"
 categories: [Group projects]
-pin: true
-image:
-  path: assets/post_data/river_tale/logo.png
 ---
 
 ## General information
