@@ -5,7 +5,7 @@ icon: fas fa-stream
 order: 3
 ---
 
-<h3>So far there are only few articles available</h3>
+<h3>So far, there are only a few articles available</h3>
 
 {% include lang.html %}
 

@@ -5,4 +5,7 @@ icon: fa-regular fa-file
 order: 4
 ---
 
-## *The resume is not finished yet, however you can already [download](../assets/post_data/home/Daniel_Smulko.pdf "Download") it!*
+> Press [this link](../assets/post_data/home/Daniel_Smulko.pdf "Download") to download the resume!
+{: .prompt-tip}
+
+![PDF as jpg](../assets/post_data/home/Daniel_Smulko.jpg)

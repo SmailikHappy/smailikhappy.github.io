@@ -5,7 +5,7 @@ icon: fas fa-stream
 order: 2
 ---
 
-<h3>So far there are only few group projects to show</h3>
+<h3>So far, there are only a few group projects to show</h3>
 
 {% include lang.html %}
 
