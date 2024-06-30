@@ -4,6 +4,7 @@ categories: [Articles]
 image:
   path: assets/post_data/deferred_renderer/deferred.png
   alt: 3 thousand lights illuminating the scene
+descrition: Details of deferred rendering pipeline
 ---
 
 

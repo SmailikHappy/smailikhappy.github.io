@@ -1,10 +1,10 @@
 ---
 title: "Rusterizer"
 categories: [Personal projects]
-pin: true
 image:
   path: assets/post_data/rusterizer/rusterizer.png
   alt: Image of crab doing dispersion of light
+description: Project made on masterclasses to learn language Rust and deepen knowledge in graphic's algorithms
 ---
 
 ## General information

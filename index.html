@@ -23,7 +23,36 @@ layout: default
 <!-- Welcome text and image -->
 
 
-<h3>Here are some of the articles/projects I advice you to read through:</h3>
+<h3>Here are my shipped games:</h3>
+
+{% assign shipped_games = site.posts | where: 'shipped_game', 'true' %}
+
+{% if shipped_games.size > 0 %}
+  <aside id="related-posts" aria-labelledby="related-label">
+    <h3 class="mb-4" id="related-label">
+      {{- site.data.locales[include.lang].post.shipped_games -}}
+    </h3>
+    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-2 g-4 mb-4">
+      {% for post in shipped_games %}
+        <article class="col">
+          <a href="{{ post.url | relative_url }}" class="post-preview card h-100">
+            <div class="card-body">
+              {% include datetime.html date=post.date lang=include.lang %}
+              <h4 class="pt-0 my-2">{{ post.title }}</h4>
+              <div class="text-muted">
+                <p>{% include post-description.html %}</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      {% endfor %}
+    </nav>
+  </aside>
+  <!-- #shipped-games -->
+{% endif %}
+
+
+<h3>Here are some of the articles/projects I am proud of and advice you to read through:</h3>
 
 {% include lang.html %}
 

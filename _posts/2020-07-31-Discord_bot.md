@@ -1,6 +1,7 @@
 ---
 title: "Discord bot to play Spy"
 categories: [Personal projects]
+description: Python Discord bot that is leading a game - Spy in a text chat
 ---
 
 ## General information

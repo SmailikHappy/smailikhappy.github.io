@@ -3,6 +3,7 @@ title: "University intake project - Frozen Defense"
 categories: [Personal projects]
 image:
   path: assets/post_data/frozen_defense/logo.png
+decription: Fully C++ tower defense game, created as an intake assignment for university.
 ---
 
 ## General information

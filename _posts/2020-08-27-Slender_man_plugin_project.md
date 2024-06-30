@@ -4,6 +4,7 @@ categories: [Personal projects]
 image:
   path: assets/post_data/slender_man/slenderman plugin logo.png
   alt: "NO NO NO NO NO NO NO NO NO"
+description: MC plugin to play as a Slenderman against your friends
 ---
 
 ## General information

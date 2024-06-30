@@ -1,6 +1,7 @@
 ---
 title: "Slender man Minecraft plugin"
 categories: [Articles]
+description: More details and installation guide of my MC plugin 
 ---
 
 ## General information
