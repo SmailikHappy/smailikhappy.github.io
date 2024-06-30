@@ -1,5 +1,5 @@
 ---
-title: "River tale"
+title: "River Tale"
 categories: [Group projects]
 image:
   path: assets/post_data/river_tale/logo.png
