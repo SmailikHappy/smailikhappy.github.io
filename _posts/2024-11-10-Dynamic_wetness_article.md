@@ -9,8 +9,8 @@ This project is a graphics concept for a future team-developed game. Initially, 
 
 As a result, I delivered a demo with dynamic rain particles, material function that can make any material look wet and a screen space wetness mask that utilizes the material function to make wet spots appearing after rain particle drop. It forced me to dive into deep research in Niagara, materials and rendering pipeline of Unreal.
 
-In this article, I will explain what this effect consists of:
-![Video with the result]()
+In this article, I will explain what this effect consists of:\
+\!\[Video with the result]()
 
 ## Niagara particles
 
@@ -30,7 +30,7 @@ This state simply draws a splash sprite adter that killing the particle.
 The idea was to have a universal material function, that can make any material look wet by tweaking original material values. The function in the project has been taken from this [Ben Cloward's tutorial](https://www.youtube.com/watch?v=fYGOZYST-oQ).
 
 ### Real life observations
-
+...
 
 ### Node graph explanation
 ![Wetness function photo](/assets/post_data/dynamic_wetness/wetness-function.png)

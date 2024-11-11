@@ -12,7 +12,7 @@ description: Self-development research project that introduces wet spots from ra
 
 This project is part of my year 3 [university](https://www.buas.nl/) coursework. It introduces wet spots from rain VFX
 
-> ~~I wrote an [article](/posts/Dynamic_wetness_article/) with detailed explanations of how it works.~~ *Didn't yet :P*
+> I am in the process of writing an [article](/posts/Dynamic_wetness_article/) with detailed explanations of how it works.
 {: .prompt-tip}
 
 *Final result, with the "wetness" screen mask displayed in the top right corner:*
