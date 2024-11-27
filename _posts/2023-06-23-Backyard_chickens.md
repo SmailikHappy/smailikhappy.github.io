@@ -17,13 +17,39 @@ The game is a remake of [Rampart](https://en.wikipedia.org/wiki/Rampart_(video_g
 
 ## Gameplay
 
-Backyard chickens is a two player couch co-op game that exists out of two phases. The building phase were players build to defend themself using randomly given tetris-like fence pieces and cannons. And an attacking phase that consists of utilizing your cannons to take down the enemy!
+Backyard Chickens is a two-player couch co-op game inspired by Rampart (1991). Players alternate between a building phase, where they construct defenses using randomly assigned Tetris-like fence pieces and cannons, and an attacking phase, where they fire their cannons to destroy the opponent's defenses!
 
 {% include embed/youtube.html id='SCvI8EL6XrA' %}
 
 ## Personal contribution
 
-- I made tools for designers to customize the world grid
-- I was coding shaders and materials
-- Contributed to the game algorithms written in C++
-- I setup Perforce (source control system)
+### I made tools for designers to customize the world grid (playfield for the game)
+
+- Designers can resize and transform the game grid.
+- A river flows across the grid, splitting the map into two distinct sides.
+- The river is generated using an array of points, ensuring flexibility in a map design.
+
+<video class="w-100" controls>
+  <source src="https://github.com/user-attachments/assets/874d2ab5-b3e9-4ce3-b2b2-40e625fbe66e" type="video/mp4">
+</video>
+
+### I coded shaders and materials
+
+- Simple water shader for the river\
+![water_shader](https://github.com/user-attachments/assets/7cd45dda-c589-4c5a-abef-d8a893115b46)
+
+- Post-process outline shader that highlights objects in different colors based on their team affiliation.\
+![Outline_shader](https://github.com/user-attachments/assets/1947de0d-e123-4345-895d-552a3f44225d)
+
+### Contributed to the game algorithms written in C++
+
+- CPP functions available in blueprints\
+![world grid cpp exposed functions](https://github.com/user-attachments/assets/0b4ff239-0b27-4905-b02e-2131425c57ac)
+
+- Example function **create grid** written in C++\
+![create grid](https://github.com/user-attachments/assets/a8c64bf8-b9e4-4703-ae51-d9d26364b734)
+
+### Setup Perforce (source control system)
+
+- Screenshot from perforce depot that stores only necessary folders and files
+![perforce_screenshot](https://github.com/user-attachments/assets/7796eea8-19a7-4da6-a3bd-1ec710637260)
