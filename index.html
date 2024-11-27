@@ -35,13 +35,17 @@ layout: default
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-2 g-4 mb-4">
       {% for post in shipped_games %}
         <article class="col">
-          <a href="{{ post.url | relative_url }}" class="post-preview card h-100">
+          <a href="{{ post.url | relative_url }}" class="post-preview card h-100 parent" style="position:relative; background: none;" >
+            
             <div class="card-body">
-              {% include datetime.html date=post.date lang=include.lang %}
               <h4 class="pt-0 my-2">{{ post.title }}</h4>
               <div class="text-muted">
                 <p>{% include post-description.html %}</p>
               </div>
+            </div>
+
+            
+            <div class="child h-full w-100" style="position: absolute; top: 0; bottom: 0; z-index: -1; opacity: 15%; background: url({{ post.image.path }}); background-size: cover; background-position: center center; border-radius:10px;">
             </div>
           </a>
         </article>
