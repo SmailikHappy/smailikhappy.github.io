@@ -1,7 +1,7 @@
 ---
 title: "Resume"
 layout: default
-icon: fa-regular fa-file
+icon: fa-solid fa-file
 order: 4
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Group projects"
 layout: default
-icon: fas fa-stream
+icon: fa-solid fa-users
 order: 2
 ---
 

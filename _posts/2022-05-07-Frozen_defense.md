@@ -33,4 +33,3 @@ Prior to this project, I had only worked on small projects and algorithms that d
 <video class="w-100" controls>
   <source src="/assets/post_data/frozen_defense/gameplay.mp4" type="video/mp4">
 </video>
-*There is a video showing the gameplay*

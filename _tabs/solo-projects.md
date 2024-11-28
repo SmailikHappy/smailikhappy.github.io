@@ -1,7 +1,7 @@
 ---
 title: "Solo projects"
 layout: default
-icon: fas fa-stream
+icon: fa-solid fa-user
 order: 1
 ---
 
