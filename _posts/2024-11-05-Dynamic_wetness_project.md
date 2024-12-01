@@ -2,6 +2,7 @@
 title: "Dynamic wetness"
 categories: [Personal projects]
 pin: true
+show_on_home_page: true
 image:
   path: assets/post_data/dynamic_wetness/wetnessing.png
   alt: Screen mask and wetness functions applied

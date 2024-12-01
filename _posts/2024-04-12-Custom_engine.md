@@ -1,5 +1,6 @@
 ---
 title: "Custom cross-platform game engine"
+show_on_home_page: true
 categories: [Group projects]
 description: PC and PS5 cross-platform engine that uses Blender as level editor
 ---
