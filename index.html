@@ -5,75 +5,69 @@ layout: default
 
 <!-- Renaming the title of page to my name, as it should be originally -->
 <script>
-    document.getElementById("topbar-title").innerHTML = "Daniel Smulko";
+  document.getElementById("topbar-title").innerHTML = "Daniel Smulko";
 </script>
 
 
 <div class="row">
-    <div class="col-md">
-        <h1>Who am I?</h1>
-        <a href="../assets/post_data/home/me.png" class="popup img-link right" style="width:30%" >
-            <img src="../assets/post_data/home/me.png" loading="lazy" style="border-radius: .625rem;" alt = "It is a photo of me">
-        </a>
-        <p>Hey, I am Daniel! Welcome to my website!</p>
-        <p>Currently, I am studying game programming at <a href = https://www.buas.nl>Breda University of Applied Sciences</a>. In the program I am focusing on engine development, graphics programming and XR technologies. </p>
-        <p>I consider myself a very curious individual, always eager to delve deep into research to find answers.</p>
-    </div>
+  <div class="col-md">
+    <h1>Who am I?</h1>
+    <a href="../assets/post_data/home/me.png" class="popup img-link right" style="width:30%" >
+      <img src="../assets/post_data/home/me.png" loading="lazy" style="border-radius: .625rem;" alt = "It is a photo of me">
+    </a>
+    <p>Hey, I am Daniel! Welcome to my website!</p>
+    <p>I am a programming student of <a href = https://www.buas.nl>Breda University of Applied Sciences</a> at games program. I am focusing on engine development, graphics programming and XR technologies. </p>
+    <p>I consider myself a very curious individual, always eager to delve deep into research to find answers.</p>
+  </div>
 </div>
 <!-- Welcome text and image -->
 
-<h3>Here are some of the articles/projects I am proud of and advice you to read through:</h3>
+<h3>Articles / projects I advice you to read:</h3>
 
 {% include lang.html %}
 
 {% assign posts_for_homepage = site.posts | where: 'show_on_home_page', 'true' %}
 
-<div id="post-list" class="flex-grow-1 px-xl-1">
-  <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-2 g-4 mb-4">
-    {% for post in posts_for_homepage %}
-      <article class="col">
-        <a href="{{ post.url | relative_url }}" class="post-preview card h-100 parent" style="position:relative; background: none;" >
-          
-          <div class="card-body">
-            <h4 class="pt-0 my-2">{{ post.title }}</h4>
-            <div class="text-muted">
-              <p>{% include post-description.html %}</p>
-            </div>
+<nav class="row row-cols-1 row-cols-md-2 row-cols-xl-2 g-4 mb-4">
+  {% for post in posts_for_homepage %}
+    <article class="col">
+      <a href="{{ post.url | relative_url }}" class="post-preview card h-100 parent" style="position:relative; background: none;" >
+        
+        <div class="card-body">
+          <h4 class="pt-0 my-2">{{ post.title }}</h4>
+          <div class="text-muted">
+            <p>{% include post-description.html %}</p>
           </div>
+        </div>
 
-          <div class="child h-full w-100" style="position: absolute; top: 0; bottom: 0; z-index: -1; opacity: 15%; background: url({{ post.image.path }}); background-size: cover; background-position: center center; border-radius:10px;">
-          </div>
-        </a>
-      </article>
-    {% endfor %}
-  </nav>
-</div>
-<!-- #post-list -->
+        <div class="child h-full w-100" style="position: absolute; top: 0; bottom: 0; z-index: -1; opacity: 15%; background: url({{ post.image.path }}); background-size: cover; background-position: center center; border-radius:10px;">
+        </div>
+      </a>
+    </article>
+  {% endfor %}
+</nav>
 
-
-<h3>Here are my shipped games:</h3>
+<h3>My shipped games:</h3>
 
 {% assign shipped_games = site.posts | where: 'shipped_game', 'true' %}
 
-{% if shipped_games.size > 0 %}
-  <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-2 g-4 mb-4">
-    {% for post in shipped_games %}
-      <article class="col">
-        <a href="{{ post.url | relative_url }}" class="post-preview card h-100 parent" style="position:relative; background: none;" >
-          
-          <div class="card-body">
-            <h4 class="pt-0 my-2">{{ post.title }}</h4>
-            <div class="text-muted">
-              <p>{% include post-description.html %}</p>
-            </div>
+<nav class="row row-cols-1 row-cols-md-2 row-cols-xl-2 g-4 mb-4">
+  {% for post in shipped_games %}
+    <article class="col">
+      <a href="{{ post.url | relative_url }}" class="post-preview card h-100 parent" style="position:relative; background: none;" >
+        
+        <div class="card-body">
+          <h4 class="pt-0 my-2">{{ post.title }}</h4>
+          <div class="text-muted">
+            <p>{% include post-description.html %}</p>
           </div>
+        </div>
 
-          
-          <div class="child h-full w-100" style="position: absolute; top: 0; bottom: 0; z-index: -1; opacity: 15%; background: url({{ post.image.path }}); background-size: cover; background-position: center center; border-radius:10px;">
-          </div>
-        </a>
-      </article>
-    {% endfor %}
-  </nav>
-{% endif %}
+        
+        <div class="child h-full w-100" style="position: absolute; top: 0; bottom: 0; z-index: -1; opacity: 15%; background: url({{ post.image.path }}); background-size: cover; background-position: center center; border-radius:10px;">
+        </div>
+      </a>
+    </article>
+  {% endfor %}
+</nav>
 <!-- #shipped-games -->
