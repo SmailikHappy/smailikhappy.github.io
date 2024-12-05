@@ -1,5 +1,5 @@
 ---
-title: "Slender man Minecraft plugin"
+title: "Article on Slender man Minecraft plugin"
 categories: [Articles]
 description: More details and installation guide of my MC plugin 
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Deferred renderer with PBR on PS5"
+title: "Article on deferred renderer with PBR on PS5"
 categories: [Articles]
 image:
   path: assets/post_data/deferred_renderer/deferred.png
