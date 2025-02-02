@@ -16,7 +16,8 @@ layout: default
       <img src="../assets/post_data/home/me.png" loading="lazy" style="border-radius: .625rem;" alt = "It is a photo of me">
     </a>
     <p>Hey, I am Daniel! Welcome to my website!</p>
-    <p>I am a programming student of <a href = https://www.buas.nl>Breda University of Applied Sciences</a> at games program. I am focusing on engine development, graphics programming and XR technologies. </p>
+    <p>I am a programming student of <a href = https://www.buas.nl>Breda University of Applied Sciences</a> at games program. I am passioned about engine development, graphics programming and XR technologies. </p>
+    <p>At the moment, I am developing with my team a game called <a href = "/posts/Katharsi/">Katharsi</a>.</p>
     <p>I consider myself a very curious individual, always eager to delve deep into research to find answers.</p>
   </div>
 </div>
@@ -71,3 +72,28 @@ layout: default
   {% endfor %}
 </nav>
 <!-- #shipped-games -->
+
+<h3>GameJam projects:</h3>
+
+{% assign game_jam_projects = site.posts | where: 'game_jam', 'true' %}
+
+<nav class="row row-cols-1 row-cols-md-2 row-cols-xl-2 g-4 mb-4">
+  {% for post in game_jam_projects %}
+    <article class="col">
+      <a href="{{ post.url | relative_url }}" class="post-preview card h-100 parent" style="position:relative; background: none;" >
+        
+        <div class="card-body">
+          <h4 class="pt-0 my-2">{{ post.title }}</h4>
+          <div class="text-muted">
+            <p>{% include post-description.html %}</p>
+          </div>
+        </div>
+
+        
+        <div class="child h-full w-100" style="position: absolute; top: 0; bottom: 0; z-index: -1; opacity: 15%; background: url({{ post.image.path }}); background-size: cover; background-position: center center; border-radius:10px;">
+        </div>
+      </a>
+    </article>
+  {% endfor %}
+</nav>
+<!-- #game-jam-projects -->
