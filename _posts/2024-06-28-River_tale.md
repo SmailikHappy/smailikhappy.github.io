@@ -32,7 +32,7 @@ In this immersive multiplayer XR adventure you navigate, strategize, and communi
   <video class="w-100" controls>
     <source src="https://github.com/user-attachments/assets/4d002b4f-2667-4279-8eaa-c24395671e88" type="video/mp4">
   </video>
-  <a class="popup"></a>*Video of playtesting the tracking system for the first time*
+  *Video of playtesting the tracking system for the first time*
 
 - Contributed as a game programmer
   - Guiding lines *(parallel to green)* & border lines *(parallel to orange)* for level designers.\
