@@ -27,7 +27,8 @@ It is worth to mention, I got some crucial lessons on why do we need peer code r
 - Jolt physics library
 - Keyboard, mouse and gamepad input handling
 - PBR rendering *(provided in the template)*
-- Variance shadow mapping
+- Directional, spot and point light support
+- Variance shadow mapping for all the light types
 - Animations
 - Blender plugin for level editing
 - Level import pipeline directly from Blender
@@ -37,6 +38,10 @@ It is worth to mention, I got some crucial lessons on why do we need peer code r
 ## Personal contribution
 
 - I made shadows using variance shadow mapping technique on both platforms for every type of light source.
+
+> I am currently writing an [article](/posts/Variance_shadow_maps_article) that explains the technique in more detail.
+{: .prompt-tip}
+
 - I contributed to blender plugin
 
 ## Blender as level editor pipeline

@@ -9,9 +9,9 @@ description: Coop game that uses XR stage with custom controllers to provide a u
 
 ## General information
 
-This is a group project completed at [Breda University](https://www.buas.nl/) as part of a course assignment. The goal is to **release (part of) a “presentable” game demo in cross-disciplinary teams** on a structured and known development challenge. 
+This is a group project completed at [Breda University](https://www.buas.nl/) as part of a course assignment. The goal was - **release (part of) a “presentable” game demo in cross-disciplinary teams** on a structured and known development challenge. 
 
-> This project is finished and has a PC version on [itch.io](https://buas.itch.io/river-tale).
+> This project is finished and has a PC version available on [itch.io](https://buas.itch.io/river-tale).
 {: .prompt-tip}
 
 The idea of the game is unusual. We are using university XR stage as a game environment with custom controllers and tracking system providing a unique theme-park like experience.
