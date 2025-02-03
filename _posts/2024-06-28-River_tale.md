@@ -24,8 +24,25 @@ In this immersive multiplayer XR adventure you navigate, strategize, and communi
 
 ## Personal contribution
 
-- I established Vive tracking for physical objects used in game
-- I setup Unreal project to use XR stage
+- I setup Jenkins for the project (automation build system)
+- I setup Perforce repository (source control system)
+- I setup Unreal project to use XR stage (with help of professionals)
+
+- I established Vive tracking for physical objects used in game\
+  <video class="w-100" controls>
+    <source src="https://github.com/user-attachments/assets/4d002b4f-2667-4279-8eaa-c24395671e88" type="video/mp4">
+  </video>
+  <a class="popup"></a>*Video of playtesting the tracking system for the first time*
+
 - Contributed as a game programmer
-- I setup Jenkins (automation build system)
-- I setup Perforce (source control system)
+  - Guiding lines *(parallel to green)* & border lines *(parallel to orange)* for level designers.\
+  *Level designers should use them to set borders of the level and guide the player in the right direction automatically.*
+  ![guidelines](../assets/post_data/river_tale/guidelines.png)
+  *Example of border lines and guide lines placed in the level*
+
+  - Ship physics
+    - Smooth rotation
+    - Rocking the boat on the waves
+    <video class="w-100" controls>
+      <source src="https://github.com/user-attachments/assets/27a7abfd-db0e-4ad3-b8ea-ccf9d817081a" type="video/mp4">
+    </video>
