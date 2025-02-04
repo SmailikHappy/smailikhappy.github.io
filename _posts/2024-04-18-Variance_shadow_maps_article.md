@@ -4,8 +4,6 @@ categories: [Articles]
 descrition: How variance shadow maps work
 ---
 
-Could you make this text more English friendly?
-
 > This article is being written now and not finished yet
 {: .prompt-danger}
 
