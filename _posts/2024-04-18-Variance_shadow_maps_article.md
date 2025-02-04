@@ -23,7 +23,7 @@ As the graphics programmer for my team, I was responsible for implementing shado
 ## Why variance shadow maps
 Initially, I implemented the basic shadow mapping algorithm. However, the results were disappointing: shadows were pixelated, and shadow acne was the most annoying problem to face.
 
-![Results with basic shadow mapping]()
+!.[Results with basic shadow mapping].()
 
 //
 // Probably, I shall mention PCF
@@ -31,7 +31,7 @@ Initially, I implemented the basic shadow mapping algorithm. However, the result
 
 After researching for a while, I decided to use a little more complex shadow mapping algorithm that provides efficient filtering, cheap edge softening, and a solution to the biasing problems of standard shadow maps.
 
-![Results of VSM]()
+!.[Results of VSM].()
 
 
 
