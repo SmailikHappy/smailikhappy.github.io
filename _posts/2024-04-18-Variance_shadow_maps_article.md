@@ -2,6 +2,7 @@
 title: "Article on variance shadow maps"
 categories: [Articles]
 descrition: How variance shadow maps work
+math: true
 ---
 
 ## What is this all about?
@@ -185,15 +186,15 @@ void main()
 
 #### Why we cannot recalculate the values after the filter pass?
 
-Squared sum is not equal to sum of squares. The filter pass is mixing both texture channels from different pixels in parallel multiple times.
+Squared sum is not equal to sum of squares. The filter pass is mixing both texture channels from different pixels in parallel multiple times. So you cannot simply recalculate the values from depth only after the filter pass.
 
 $$ (a+b)^2 \neq a^2 + b^2 $$
+
 $$ a^2 + 2ab + b^2 \neq a^2 + b^2 $$
+
 $$ 2ab \neq 0 $$
 
-`(a+b)^2 != a^2 + b^2`\
-`a^2 + 2ab + b^2 != a^2 + b^2`\
-`2ab != 0`
+while $ a \neq 0 $ or $ b \neq 0 $.
 
 
 
