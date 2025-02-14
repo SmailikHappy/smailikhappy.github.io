@@ -1,7 +1,7 @@
 ---
 title: "Article on variance shadow maps"
 categories: [Articles]
-description: How variance shadow maps work fhbweyiufhgweyuhfyuiwe weyfgweyuf eyuifgweyufg weuyfgeyu wgweyuifweyufeyug gtyugtyuv tyvuv ytuv rtyuv rtyufv6rtyuvt vty vctyr vty vv tyvtyfv tyvtyv tyv tyv tyv tyvtygv tyv tyv ty v
+description: How variance shadow maps work
 math: true
 show_on_home_page: true
 ---
