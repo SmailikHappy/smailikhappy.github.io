@@ -16,10 +16,10 @@ timezone:
 
 title: Daniel Smulko # the main title
 
-tagline: Personal portfolio website # it will display as the sub-title
+tagline: Graphics programmer # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Personal website of Daniel Smulko
+  Portfolio of Daniel Smulko
 
 # Fill in the protocol & hostname for your site.
 url: "https://smailikhappy.github.io"
@@ -34,7 +34,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Daniel Smulko
-  email: dan.smulko@google.com # change to your email address
+  email: dan.smulko@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/smailikhappy
