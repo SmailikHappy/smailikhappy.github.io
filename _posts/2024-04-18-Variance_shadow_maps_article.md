@@ -1,6 +1,8 @@
 ---
 title: "Article on variance shadow maps"
 categories: [Articles]
+image:
+  path: assets/post_data/variance_shmaps/logo.png
 description: How variance shadow maps work
 math: true
 show_on_home_page: true
