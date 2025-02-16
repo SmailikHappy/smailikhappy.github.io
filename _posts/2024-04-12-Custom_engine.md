@@ -2,6 +2,8 @@
 title: "Custom cross-platform game engine"
 show_on_home_page: true
 categories: [Group projects]
+image:
+  path: assets/post_data/fps_coop/fps.png
 description: PC and PS5 cross-platform engine that uses Blender as level editor
 ---
 
@@ -16,10 +18,11 @@ It is worth to mention, I got some crucial lessons on why do we need peer code r
 > The project's codebase cannot be shared due to protection of NDA rules!
 {: .prompt-warning}
 
-## Final demo gameplay result
+## Demo of the project
 
-![GIF from the engine](../assets/post_data/fps_coop/game.gif)
-*Short gif of resulting demo level from the project*
+<video class="w-100" controls>
+  <source src="https://github.com/user-attachments/assets/0e870f69-abd3-4876-a9f3-917ac928d00c" type="video/mp4">
+</video>
 
 ## Features that project has:
 
@@ -46,10 +49,10 @@ It is worth to mention, I got some crucial lessons on why do we need peer code r
 
 ## Blender as level editor pipeline
 
-<video class="w-100" controls>
-  <source src="/assets/post_data/fps_coop/blender_to_bee.mp4" type="video/mp4">
-</video>
-
 > On this video you can see a small example of blender being used as level editor.\
 Blender plugin has basic functionality for lights, geometry and predefined actors.
 {: .prompt-info}
+
+<video class="w-100" controls>
+  <source src="/assets/post_data/fps_coop/blender_to_bee.mp4" type="video/mp4">
+</video>
