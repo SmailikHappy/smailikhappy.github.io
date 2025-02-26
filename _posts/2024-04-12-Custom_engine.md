@@ -42,7 +42,7 @@ It is worth to mention, I got some crucial lessons on why do we need peer code r
 
 - I made shadows using variance shadow mapping technique on both platforms for every type of light source.
 
-> I am currently writing an [article](/posts/Variance_shadow_maps_article) that explains the technique in more detail.
+> I wrote an [article](/posts/Variance_shadow_maps_article) that explains the technique in more detail.
 {: .prompt-tip}
 
 - I contributed to blender plugin
