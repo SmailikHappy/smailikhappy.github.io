@@ -5,6 +5,7 @@ categories: [Group projects]
 image:
   path: assets/post_data/fps_coop/fps.png
 description: PC and PS5 cross-platform engine that uses Blender as level editor
+skills: [Team, Python, C++, OpenGL, AGC]
 ---
 
 ## General information

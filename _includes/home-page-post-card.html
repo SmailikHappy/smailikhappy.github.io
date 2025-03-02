@@ -16,7 +16,7 @@
         }
 
         .mask1 { 
-        mask: linear-gradient(to top, rgba(0,0,0,1) 66%, rgba(0,0,0,0.4) 80%,  rgba(0,0,0,0.1) 100%);
+        mask: linear-gradient(to top, rgba(0,0,0,1) 70%, rgba(0,0,0,0.4) 80%,  rgba(0,0,0,0.1) 100%);
         opacity: 100%;
         transition: opacity .35s ease-in-out;
         }
@@ -50,8 +50,15 @@
         
         <div class="card-body">
             <h4 class="pt-0 mt-0">{{ post.title }}</h4>
-            <div class="text-muted" >
-                <p style="height: 7.5rem;">{% include post-description.html %}</p>
+            <div class="text-muted" style="display: flex; justify-content: space-between; flex-direction: column;">
+                <div style="height: 6.5rem">
+                    <p>{% include post-description.html %}</p>
+                </div>
+                <div>
+                    {% for skill in post.skills %}
+                        <div class="post-tag" style="background-color: var(--main-bg); color: var(--text-color); opacity: 90%">{{ skill }}</div>
+                    {% endfor %}
+                </div>
             </div>
         </div>
 
