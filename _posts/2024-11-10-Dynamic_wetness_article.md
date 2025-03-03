@@ -1,16 +1,25 @@
 ---
-title: "Article on dynamic wetness"
+title: "Dynamic wetness in Unreal"
 categories: [Articles]
 image:
   path: assets/post_data/dynamic_wetness/wetnessing.png
   alt: Screen mask and wetness functions applied
 description: Article explaining how I made a responsive screen-space wetness
+skills: [Solo, Unreal plugin]
+show_on_home_page: true
 ---
 
 ## What is this all about?
-This project is a graphics concept for a future team game with plaguecore-decayed visuals and slow-paced gameplay. To contribute, I created a demo featuring dynamic rain particles, a material function for wet effects, and a screen-space wetness mask to show wet spots from rain drops. This required deep research into Unreal's Niagara system, materials, and rendering pipeline.
 
-*In this article, I will explain what this effect consists of:*
+This project is part of my third-year coursework at [university](https://www.buas.nl/) and began as a concept for a graphics feature in a game, but it was halted at the conceptual stage.
+
+The idea was to simulate rain effects by making surfaces wet precisely at the point of each raindrop’s impact during runtime.
+
+> I created a demo featuring dynamic rain particles, a material function for wet effects, and a screen-space wetness mask to define wet spots on the screen. This involved deep research into Unreal's Niagara system, materials, and rendering pipeline.\
+> Check out the [link to the GitHub](https://github.com/SmailikHappy/GraphicsConcepting).
+{: .prompt-tip}
+
+*In this article, I will explain the details of this effect:*
 <video class="w-100" controls>
   <source src="https://github.com/user-attachments/assets/ff1e54f3-59c8-4df7-8bfe-ccd45236d138" type="video/mp4">
 </video>
@@ -19,11 +28,11 @@ This project is a graphics concept for a future team game with plaguecore-decaye
 
 ## Key algorithm steps
 
-1. **Creating a mask**\
-All the wet spots from rain drops are rendered into a single texture as instanced primitives (in my particular case the primitive is a plane).
+1. **Creating a screen mask**\
+All the wet spots from rain drops are rendered into a single full-screen texture as instanced primitives (in my particular case the primitive is a plane).
 
 2. **Applying wetness mask**\
-When material shader contributes to the pixel, it takes into account the wetness value from a screen mask, so that the surface can be wet.
+When material shader contributes to the pixel, it takes into account the wetness value from a screen mask, so that the surface can get a wetness value.
 
 
 
@@ -64,7 +73,8 @@ Water accumulates on the surface, increasing the specular highlights.
 
 It was all about learning how to use Niagara, materials, and researching rendering pipeline in Unreal. I am more then happy with the result, especially being able to make some a cool graphics feature in Unreal, an engine already known for its outstanding graphical capabilities.
 
-> There is a [link to the GitHub repo](https://github.com/SmailikHappy/GraphicsConcepting) with this Unreal project.
+> You are free to use this code in your project.\
+> How to use is explained in the `README.md` file of [the repo](https://github.com/SmailikHappy/GraphicsConcepting).
 {: .prompt-tip}
 
 Thanks for reading this article. GG
