@@ -7,7 +7,7 @@ image:
   path: assets/post_data/dynamic_wetness/wetnessing.png
   alt: Screen mask and wetness functions applied
 description: Self-development research project that introduces wet spots from rain VFX
-skills: [Solo, Unreal, C++]
+skills: [Solo, Unreal plugin]
 ---
 
 ## General information
