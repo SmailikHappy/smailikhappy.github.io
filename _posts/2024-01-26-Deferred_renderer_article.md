@@ -5,7 +5,7 @@ image:
   path: assets/post_data/deferred_renderer/deferred.png
   alt: 3 thousand lights illuminating the scene
 description: Article on deferred rendering pipeline
-skills: [Solo, Graphics]
+skills: [Solo, Graphics, C++]
 show_on_home_page: true
 ---
 

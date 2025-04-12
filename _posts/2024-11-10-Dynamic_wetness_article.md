@@ -5,7 +5,7 @@ image:
   path: assets/post_data/dynamic_wetness/wetnessing.png
   alt: Screen mask and wetness functions applied
 description: Article explaining how I made a responsive screen-space wetness
-skills: [Solo, Unreal plugin]
+skills: [Solo, Unreal, C++]
 show_on_home_page: true
 ---
 

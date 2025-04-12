@@ -4,7 +4,7 @@ categories: [Articles]
 image:
   path: assets/post_data/variance_shmaps/logo.png
 description: Article on variance shadow maps work
-skills: [Solo, Graphics]
+skills: [Solo, Graphics, C++]
 math: true
 show_on_home_page: true
 ---
