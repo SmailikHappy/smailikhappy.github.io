@@ -25,7 +25,7 @@ My team is working on a game called [Katharsi](../Katharsi). One of my tasks was
 *A small video of the tool in action:*
 
 <video class="w-100" controls>
-  <source src="../../assets/post_data/slime_mold/Beta Tool Showcase.mp4" type="video/mp4">
+  <source src="../../assets/post_data/slime_mold/beta_tool_showcase.mp4" type="video/mp4">
 </video>
 
 > In this video:
