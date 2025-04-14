@@ -16,7 +16,7 @@ This project is part of my third-year coursework at [university](https://www.bua
 The idea was to simulate rain effects by making surfaces wet precisely at the point of each raindrop’s impact during runtime.
 
 > I created a demo featuring dynamic rain particles, a material function for wet effects, and a screen-space wetness mask to define wet spots on the screen. This involved deep research into Unreal's Niagara system, materials, and rendering pipeline.\
-> Check out the [link to the GitHub](https://github.com/SmailikHappy/GraphicsConcepting).
+> Check out the link to the [<i class="fab fa-github"></i> GitHub](https://github.com/SmailikHappy/GraphicsConcepting).
 {: .prompt-tip}
 
 *In this article, I will explain the details of this effect:*
@@ -74,7 +74,7 @@ Water accumulates on the surface, increasing the specular highlights.
 It was all about learning how to use Niagara, materials, and researching rendering pipeline in Unreal. I am more then happy with the result, especially being able to make some a cool graphics feature in Unreal, an engine already known for its outstanding graphical capabilities.
 
 > You are free to use this code in your project.\
-> How to use is explained in the `README.md` file of [the repo](https://github.com/SmailikHappy/GraphicsConcepting).
+> How to use is explained in the `README.md` file of [the <i class="fab fa-github"></i> repo](https://github.com/SmailikHappy/GraphicsConcepting).
 {: .prompt-tip}
 
 Thanks for reading this article. GG
