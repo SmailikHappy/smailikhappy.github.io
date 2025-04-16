@@ -43,17 +43,10 @@ It is worth to mention, I got some crucial lessons on why do we need peer code r
 
 - I made shadows using variance shadow mapping technique on both platforms for every type of light source.
 
-> I wrote an [article](/posts/Variance_shadow_maps_article) that explains the technique in more detail.
-{: .prompt-tip}
+{% assign input_posts = site.posts | where: 'footnote', '445432' %}
+{% include footnote-post.html %}
 
 - I contributed to blender plugin
 
-## Blender as level editor pipeline
-
-> On this video you can see a small example of blender being used as level editor.\
-Blender plugin has basic functionality for lights, geometry and predefined actors.
-{: .prompt-info}
-
-<video class="w-100" controls>
-  <source src="/assets/post_data/fps_coop/blender_to_bee.mp4" type="video/mp4">
-</video>
+{% assign input_posts = site.posts | where: 'footnote', '938274' %}
+{% include footnote-post.html %}
