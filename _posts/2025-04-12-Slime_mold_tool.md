@@ -9,7 +9,7 @@ skills: [Solo, Unreal, Plugin, C++]
 show_on_home_page: true
 ---
 
-> This project is work-in-progress, some information might be missing.
+> This project is work-in-progress, probably the whole post will be rewritten.
 {: .prompt-danger}
 
 
@@ -18,7 +18,7 @@ show_on_home_page: true
 
 My team is working on a game called [Katharsi](../Katharsi). One of my tasks was to create a tool for artists to spread the slime mold (the goop) around the game environment. In this article I will explain the plugin I created for this tool and how the generation is built on top of it.
 
-> The source code of the plugin and this tool is available on [<i class="fab fa-github"></i> GitHub](https://github.com/SmailikHappy/SlimeMoldTool), where you can also find instructions on how to use adjust it for you own project.
+> The source code of the plugin and this tool is available on [<i class="fab fa-github"></i> GitHub](https://github.com/SmailikHappy/SlimeMoldTool), where you can also find instructions on how to use it for you own project.
 {: .prompt-tip}
 
 
