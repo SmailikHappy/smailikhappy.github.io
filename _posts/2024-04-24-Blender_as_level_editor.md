@@ -1,7 +1,7 @@
 ---
 title: "Blender as a level editor"
 categories: [Articles]
-description: Article that explains how we made a level editor for our custom engine in blender
+description: Article explaining how we made Blender as a level editor for our custom engine
 image:
   path: assets/post_data/blender_as_level_editor/blender_to_bee.png
 skills: [Team, Blender, C++, Python]
