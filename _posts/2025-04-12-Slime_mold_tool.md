@@ -374,7 +374,7 @@ public:
 ```
 {: file='SlimeMoldSkeletonEditingTool.h'}
 
-As mentioned in the [UInteractiveTool section above](#uinteractivetool), we create and attach property sets when initializing the tool. The developer can add as many properties as they want.\
+As mentioned in the [UInteractiveTool section above](#uinteractivetool-class), we create and attach property sets when initializing the tool. The developer can add as many properties as they want.\
 The `RestoreProperties()` function loads the property data from the cache if the `SaveProperties()` function was called earlier in the same Unreal session.\
 *Snippet from tool `Setup()` function:*
 
@@ -519,7 +519,7 @@ protected:
 
 #### Functions
 
-> `Setup()`, `OnPropertyModified()`, `Shutdown()`, `OnTick()` are virtual functions inherited from `UInteractiveTool`. Check the [UInteractive tool](#interactive-tool) section of skeleton tool for more information.
+> `Setup()`, `OnPropertyModified()`, `Shutdown()`, `OnTick()` are virtual functions inherited from `UInteractiveTool`. Check the [UInteractive tool](#uinteractivetool-class) section of skeleton tool for more information.
 {: .prompt-info}
 
 Here is what I am doing in these functions:
