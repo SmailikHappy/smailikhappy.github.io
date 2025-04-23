@@ -66,7 +66,11 @@ The plugin is implemented in C++ and provides:
 > Interestingly, the user does not have to generated anything, they can use the skeleton data for their own purposes in runtime, as the skeleton data is always saved and even available in the final game build. 
 {: .prompt-info}
 
+*Showcase of the full tool usage:*
 
+<video class="w-100" controls>
+  <source src="../../assets/post_data/slime_mold/full_tool_usage.mp4" type="video/mp4">
+</video>
 
 ---
 
