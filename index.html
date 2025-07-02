@@ -45,16 +45,21 @@ layout: default
 </nav>
 <!-- #shipped-games -->
 
-<h3>Current work in progress:</h3>
+
 
 {% assign wip_projects = site.posts | where: 'wip', 'true' %}
+{% if wip_projects != empty %}
+  <h3>Current work in progress:</h3>
 
-<nav class="row row-cols-1 row-cols-md-1 row-cols-xl-1 g-4 mb-4">
-  {% for post in wip_projects %}
-    {% include home-page-post-card.html %}
-  {% endfor %}
-</nav>
-<!-- #wip-projects -->
+  <nav class="row row-cols-1 row-cols-md-1 row-cols-xl-1 g-4 mb-4">
+    {% for post in wip_projects %}
+      {% include home-page-post-card.html %}
+    {% endfor %}
+  </nav>
+  <!-- #wip-projects -->
+{% endif %}
+
+
 
 <h3>GameJam projects:</h3>
 
