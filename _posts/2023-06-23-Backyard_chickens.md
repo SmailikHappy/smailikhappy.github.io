@@ -5,7 +5,7 @@ image:
   path: assets/post_data/backyard_chickens/logo.png
 shipped_game: true
 description: Local coop game made in Unreal, based on Rampart (1991) gameplay
-skills: [Team, Unreal, Game]
+skills: [Team, Unreal, Game, Itch.io]
 ---
 
 ## General information

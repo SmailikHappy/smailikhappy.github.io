@@ -5,7 +5,7 @@ game_jam: true
 image:
   path: assets/post_data/bubble_brawlers/logo.png
 description: My first time in a global game jam (Y2025) with a team of 10 people
-skills: [Team, Unreal, Game]
+skills: [Team, Unreal, Game, Itch.io]
 ---
 
 ## General information

@@ -5,7 +5,7 @@ image:
   path: assets/post_data/river_tale/logo.png
 shipped_game: true
 description: Coop game that uses XR stage with custom controllers to provide a unique theme-park like experience
-skills: [Team, Unreal, Game]
+skills: [Team, Unreal, Game, Itch.io]
 ---
 
 ## General information

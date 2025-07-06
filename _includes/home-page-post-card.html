@@ -61,6 +61,11 @@
                             {% assign tagcolor = "green" %}
                         {% elsif skill == "Solo" %}
                             {% assign tagcolor = "orange" %}
+                        {% elsif skill == "Steam" %}
+                            {% assign tagcolor = "blue" %}
+                        {% elsif skill == "Itch.io" %}
+                            {% assign tagcolor = "red" %}
+                        
                         {% endif %}
                         <div class="post-tag" style="background-color: color-mix(in srgb, var(--main-bg) 75%, {{ tagcolor }} 25%); color: var(--text-color);">{{ skill }}</div>
                     {% endfor %}
