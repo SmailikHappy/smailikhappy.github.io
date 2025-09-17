@@ -11,7 +11,7 @@ footnote: 344562
 mermaid: true
 ---
 
-> This project is currently under development and the article is still in a draft state. Major changes are expected.
+> This article is still in a draft state. Major changes are expected.
 {: .prompt-danger}
 
 
@@ -595,8 +595,5 @@ The main game's reference is [The Last of Us fungus](https://thelastofus.fandom.
 ### Unreal Geometry Script
 
 I have used [Geometry Script](https://dev.epicgames.com/documentation/en-us/unreal-engine/geometry-scripting-users-guide-in-unreal-engine) plugin to generate the mesh. It is very similar to blender geometry nodes.
-
-> The generation algorithm is not completely done yet.
-{: .prompt-danger}
 
 
