@@ -1,10 +1,12 @@
 ---
 title: "Slender man Minecraft plugin"
-categories: [Personal projects]
+categories: [Free-time projects]
 image:
   path: assets/post_data/slender_man/slenderman plugin logo.png
   alt: "NO NO NO NO NO NO NO NO NO"
 description: MC plugin to play as a Slenderman against your friends
+skills: []
+notes: []
 ---
 
 ## General information

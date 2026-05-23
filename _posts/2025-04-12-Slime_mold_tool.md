@@ -5,7 +5,8 @@ image:
   path: assets/post_data/slime_mold/slime_mold.png
   alt: The slime mold that covers the world geometry
 description: Unreal plugin to edit and generate Slime Mold in the editor
-skills: [Solo, Unreal, Plugin, C++]
+skills: [Unreal, Plugin]
+notes: [Solo]
 show_on_home_page: true
 footnote: 344562
 mermaid: true

@@ -2,7 +2,7 @@
 title: "Resume"
 layout: default
 icon: fa-solid fa-file
-order: 4
+order: 5
 ---
 
 > Press [this link](../assets/post_data/home/Daniel_Smulko.pdf "Download") to download the resume!

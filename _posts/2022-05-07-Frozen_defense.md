@@ -1,9 +1,11 @@
 ---
 title: "Frozen Defense"
-categories: [Personal projects]
+categories: [Free-time projects]
 image:
   path: assets/post_data/frozen_defense/logo.png
 description: Complete C++ tower defense game, created as an intake assignment for university.
+skills: []
+notes: []
 ---
 
 ## General information

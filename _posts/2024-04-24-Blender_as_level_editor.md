@@ -4,7 +4,8 @@ categories: [Articles]
 description: Article explaining how we made Blender as a level editor for our custom engine
 image:
   path: assets/post_data/blender_as_level_editor/blender_to_bee.png
-skills: [Team, Blender, C++, Python]
+skills: []
+notes: [Team]
 mermaid: true
 show_on_home_page: true
 footnote: 938274

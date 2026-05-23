@@ -1,7 +1,9 @@
 ---
 title: "Discord bot to play Spy"
-categories: [Personal projects]
+categories: [Free-time projects]
 description: Python Discord bot that is leading a game - Spy in a text chat
+skills: []
+notes: []
 ---
 
 ## General information

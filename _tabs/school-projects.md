@@ -1,13 +1,13 @@
 ---
-title: "Articles"
+title: "School projects"
 layout: default
-icon: fas fa-stream
-order: 4
+icon: fa-solid fa-graduation-cap
+order: 1
 ---
 
 {% include lang.html %}
 
-{% assign all_posts = site.posts | where: 'categories', 'Articles' %}
+{% assign all_posts = site.posts | where: 'categories', 'School projects' %}
 
 {% assign pinned = all_posts | where: 'pin', 'true' %}
 {% assign default = all_posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}

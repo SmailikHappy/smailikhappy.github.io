@@ -1,7 +1,9 @@
 ---
 title: "Article on Slender man Minecraft plugin"
 categories: [Articles]
-description: More details and installation guide of my MC plugin 
+description: More details and installation guide of my MC plugin
+skills: []
+notes: []
 ---
 
 ## General information

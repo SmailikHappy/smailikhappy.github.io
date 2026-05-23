@@ -1,15 +1,13 @@
 ---
-title: "Group projects"
+title: "Commercial experience"
 layout: default
-icon: fa-solid fa-users
-order: 2
+icon: fas fa-briefcase
+order: 4
 ---
-
-<h3>So far, there are only a few group projects to show</h3>
 
 {% include lang.html %}
 
-{% assign all_posts = site.posts | where: 'categories', 'Group projects' %}
+{% assign all_posts = site.posts | where: 'categories', 'Commercial experience' %}
 
 {% assign pinned = all_posts | where: 'pin', 'true' %}
 {% assign default = all_posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}

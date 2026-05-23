@@ -2,7 +2,8 @@
 title: "Octahedral imposters"
 categories: [Articles]
 description: Short overview of creating octahedral imposters for real-time rendering.
-skills: [Internship, Grpahics, C++]
+skills: [Graphics]
+notes: [Internship]
 show_on_home_page: false
 ---
 

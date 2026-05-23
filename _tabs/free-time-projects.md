@@ -1,15 +1,13 @@
 ---
-title: "Solo projects"
+title: "Free-time projects"
 layout: default
-icon: fa-solid fa-user
-order: 1
+icon: fa-solid fa-gamepad
+order: 2
 ---
-
-<h3>Here is a list of my personal projects that I have worked on</h3>
 
 {% include lang.html %}
 
-{% assign all_posts = site.posts | where: 'categories', 'Personal projects' %}
+{% assign all_posts = site.posts | where: 'categories', 'Free-time projects' %}
 
 {% assign pinned = all_posts | where: 'pin', 'true' %}
 {% assign default = all_posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}

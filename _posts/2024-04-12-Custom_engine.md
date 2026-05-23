@@ -1,11 +1,12 @@
 ---
 title: "Custom cross-platform game engine"
 show_on_home_page: true
-categories: [Group projects]
+categories: [School projects]
 image:
   path: assets/post_data/fps_coop/fps.png
 description: PC / PS5 cross-platform engine that uses Blender as level editor
-skills: [Team, Custom engine, C++]
+skills: [Custom engine]
+notes: [Team]
 ---
 
 ## General information

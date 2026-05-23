@@ -26,9 +26,37 @@
         opacity: 0%;
         transition: opacity .35s ease-in-out;
         }
+
+        .bookmark-container {
+            position: absolute;
+            bottom: -8px;
+            right: 20px;
+            display: flex;
+            flex-direction: row;
+            gap: 4px;
+            z-index: 10;
+        }
+
+        .bookmark {
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.85em;
+            font-weight: 500;
+            white-space: nowrap;
+            box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
+            cursor: pointer;
+        }
+
+        .bookmark-skill {
+            color: var(--text-color);
+        }
+
+        .bookmark-note {
+            color: var(--text-color);
+            font-size: 0.85em;
+            font-weight: 700;
+        }
     }
-
-
 
     .custom-card-transition:hover {
         p {
@@ -46,29 +74,40 @@
 </style>
 
 <article class="col">
-    <a href="{{ post.url | relative_url }}" class="post-preview card h-100 parent custom-card-transition" style="position:relative; background: none;" >
+    <a href="{{ post.url | relative_url }}" class="post-preview card h-100 parent custom-card-transition" style="position:relative; background: none; overflow: visible;" >
+        
+        <!-- Bookmarks Container -->
+        <div class="bookmark-container">
+            <!-- Skills Bookmarks -->
+            {% for skill in post.skills %}
+                {% assign tagcolor = "var(--main-bg)" %}
+                {% if skill == "Steam" %}
+                    {% assign tagcolor = "rgb(70, 70, 255)" %}
+                {% elsif skill == "Itch.io" %}
+                    {% assign tagcolor = "red" %}
+                {% endif %}
+                <div class="bookmark bookmark-skill" style="background-color: color-mix(in srgb, {{ tagcolor }} 50%, white 25%, black 25%);">{{ skill }}</div>
+            {% endfor %}
+            
+            <!-- Notes Bookmarks -->
+            {% for note in post.notes %}
+                {% assign notecolor = "var(--main-bg)" %}
+                {% if note == "Team" %}
+                    {% assign notecolor = "green" %}
+                {% elsif note == "Solo" %}
+                    {% assign notecolor = "rgb(200, 70, 10)" %}
+                {% elsif note == "Internship" %}
+                    {% assign notecolor = "purple" %}
+                {% endif %}
+                <div class="bookmark bookmark-note" style="background-color: color-mix(in srgb, {{ notecolor }} 50%, white 25%, black 25%);">{{ note }}</div>
+            {% endfor %}
+        </div>
         
         <div class="card-body" style="z-index: 5;">
             <h4 class="pt-0 mt-0">{{ post.title }}</h4>
             <div class="text-muted" style="display: flex; justify-content: space-between; flex-direction: column;">
                 <div style="height: 6.5rem">
                     <p>{% include post-description.html %}</p>
-                </div>
-                <div>
-                    {% for skill in post.skills %}
-                        {% assign tagcolor = "var(--main-bg)" %}
-                        {% if skill == "Team" %}
-                            {% assign tagcolor = "green" %}
-                        {% elsif skill == "Solo" %}
-                            {% assign tagcolor = "orange" %}
-                        {% elsif skill == "Steam" %}
-                            {% assign tagcolor = "blue" %}
-                        {% elsif skill == "Itch.io" %}
-                            {% assign tagcolor = "red" %}
-                        
-                        {% endif %}
-                        <div class="post-tag" style="background-color: color-mix(in srgb, var(--main-bg) 75%, {{ tagcolor }} 25%); color: var(--text-color);">{{ skill }}</div>
-                    {% endfor %}
                 </div>
             </div>
         </div>
