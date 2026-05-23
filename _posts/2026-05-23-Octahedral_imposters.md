@@ -49,7 +49,7 @@ The implementation uses a render-pass to bake view-dependent textures and a ligh
 
 *Screenshots and performance charts will be added here.*
 
-![Placeholder preview](../assets/post_data/octahedral_imposters/preview.png)
+![Placeholder preview](https://placehold.net/default.png)
 
 
 ## Notes and next steps
