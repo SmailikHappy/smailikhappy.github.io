@@ -2,7 +2,7 @@
 title: "School projects"
 layout: default
 icon: fa-solid fa-graduation-cap
-order: 1
+order: 2
 ---
 
 {% include lang.html %}

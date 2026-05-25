@@ -2,7 +2,7 @@
 title: "Free-time projects"
 layout: default
 icon: fa-solid fa-gamepad
-order: 2
+order: 3
 ---
 
 {% include lang.html %}
